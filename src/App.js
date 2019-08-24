@@ -4,13 +4,15 @@ import Button from "@material-ui/core/Button";
 import Container from "@material-ui/core/Container";
 import "./App.css";
 import Header from "./components/header";
+import Card from "./components/card";
 
 class App extends Component {
   render() {
     return (
-      <Container maxWidth="md">
+      <Container maxWidth="lg">
       {/* <div className="App"> */}
         <Header/>
+        <Card/>
       {/* </div> */}
       </Container>
     );
